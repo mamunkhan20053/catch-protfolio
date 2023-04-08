@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: auto;
+}
+
+.first-section {
+    position: absolute;
+    width: 1350px;
+    height: 837px;
+    background: #FFF8F3;
+    background-image: url(../images/hardy.png), url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, right, left;
+    font-family: 'Open Sans';
+    padding-top: 60px;
+
+}
+
+/* now design mary hardy */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-bar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-right: 200px;
+    align-items: center;
+
+}
+
+.mary-hardy {
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+}
+
+.r-style {
+    color: #FD6E0A;
+}
+
+/* here the btn-style */
+.btn-style {
+    background: #FD6E0A;
+    border-radius: 5px;
+    width: 150px;
+    height: 64px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    display: inline-block;
+
+}
