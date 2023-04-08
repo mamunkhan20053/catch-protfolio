@@ -36,6 +36,7 @@
     font-weight: 800;
     font-size: 45px;
     color: #181818;
+    margin-left: 150px;
 }
 
 .r-style {
@@ -54,4 +55,52 @@
     font-size: 20px;
     display: inline-block;
 
+}
+
+/* now hardy first section second div work, it is hardy description */
+.hardy-first-description {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    width: 500px;
+    height: 350px;
+}
+
+.hardy-salam {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+
+.hardy-introduce {
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+}
+
+.hardy-paragraph {
+    color: #757575;
+    margin-bottom: 25px;
+}
+
+/* the download cv button some specific code */
+
+
+.download-cv {}
+
+.contact-button {
+    color: #FD6E0A;
+    background: #FFF8F3;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    width: 160px;
+    height: 65px;
+  
+
+}
+.button-container{
+    display: flex;
+    justify-content:flex-start;  
+    align-items: center; 
+    gap: 30px;
 }
